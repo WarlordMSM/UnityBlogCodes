@@ -12,7 +12,7 @@ public class GridLayoutFitter : MonoBehaviour
     public float extraFittableAmount = 0f;
 
 
-    private void Update()
+    private void Update() // replace Update by Start to prevent performance issues
     {
         Fit();
     }
